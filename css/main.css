@@ -1,0 +1,117 @@
+html {
+
+	font-size: 16px
+
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+ul,li {
+	margin:0px;
+	padding: 0px;
+	display: block;
+
+}
+
+.frist {
+background: url(../img/bg.jpg) no-repeat fixed;
+height: 100vh;
+
+}
+
+.header	{
+background: rgba(0,0,0,0.12) url(../img/logo-mini.png) center no-repeat;
+height: 45px;
+box-shadow: 0px 5px 5.88px 0.12px rgba(0, 0, 0, 0.10);
+  
+}
+
+.menu__item {
+	margin-right: 25px;
+	
+}
+.menu__item a {
+	color: #fff;
+	font-weight: 800;
+	font-size: 16px;
+	float: right;
+	padding: 12px 0px 9px;
+	margin-left: 45px	;
+
+}
+
+.menu__item a:hover {
+	text-decoration: none;
+	color: #25befe;
+	border-bottom: 1px solid #25befe ;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease;
+
+}
+.menu__item a:active {
+
+	-moz-transition: all 0.2s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease;
+	color: white;
+}
+
+.logo {
+	display: block;
+	margin: 0px auto;
+	margin-top:200px;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-size: 48px;
+	font-weight: 800;
+	letter-spacing: 0.3em;
+	margin-top: 25px;
+}
+.offer__text {
+	text-align: center;
+	color: white;
+}
+.offer__button {
+	text-align: center;
+	margin-top: 40px;
+}
+.button {
+	color: white;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 30px;
+	padding:20px 50px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 10px;
+}
+.button:hover {
+	background: white;
+	color: black;
+	text-decoration: none;
+	-moz-transition: all 0.1s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.1s;
+	-webkit-transition-timing-function: ease;
+}
+.button:active {
+	box-shadow: 0px 1px 15px black inset;
+	border: none;
+
+}
+
+.offer__arrow {
+	margin-top: 150px;
+
+}
+
+
